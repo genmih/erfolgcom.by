@@ -1,9 +1,18 @@
 <!doctype html>
 <html lang="ru">
   <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5P0QVZTY15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5P0QVZTY15');
+</script> 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline';" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com;" />
     <meta
       name="description"
       content="Монтаж и техническое обслуживание пожарной сигнализации (АПС) и СОУЭ в Витебской области. Диагностика, регламентные работы, журнал обслуживания, устранение неисправностей."
@@ -32,7 +41,7 @@
         "name": "ОДО ЭрфольгКом",
         "areaServed": "Витебская область",
         "telephone": "+375336758878",
-        "email": "INFO@ERFOLGCOM.BY",
+        "email": "info@erfolgcom.by",
         "description": "Техническое обслуживание АПС и СОУЭ: регламентные работы, диагностика, устранение неисправностей, ведение документации.",
         "serviceType": [
           "Монтаж АПС",
@@ -41,7 +50,7 @@
           "Техническое обслуживание СОУЭ",
           "Проверка пожарной сигнализации"
         ],
-        "url": "./"
+        "url": "https://erfolgcom.by/"
       }
     </script>
   </head>
@@ -106,7 +115,7 @@
             </h1>
             <p class="hero__lead">
               Монтаж, регламентные работы, диагностика, устранение неисправностей, ведение журнала обслуживания.
-              Подходим для офисов, магазинов, складов, производств, школ и ТСЖ.
+              Подходит для офисов, магазинов, складов, производств, школ и ТСЖ.
             </p>
             <div class="hero__cta">
               <a class="btn btn--primary" href="#contacts">Связаться</a>
@@ -316,7 +325,7 @@
               <div class="contacts__row">
                 <div class="contacts__k">E‑mail</div>
                 <div class="contacts__v">
-                  <a href="mailto:INFO@ERFOLGCOM.BY">INFO@ERFOLGCOM.BY</a>
+                  <a href="mailto:info@erfolgcom.by">info@erfolgcom.by</a>
                 </div>
               </div>
               <div class="contacts__row">
@@ -338,10 +347,11 @@
 
     <footer class="footer">
       <div class="container footer__inner">
-        <p class="footer__copy">© <span data-year></span> ОДО ЭрфольгКом, Витебская область.</p>
+        <p class="footer__copy">© 2008-<span id="currentYear"></span> ОДО ЭрфольгКом, Витебская область.</p>
       </div>
     </footer>
 
     <script src="./script.js" defer></script>
+    <script>document.getElementById('currentYear').textContent=new Date().getFullYear();</script>
   </body>
 </html>
