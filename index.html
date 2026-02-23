@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline';" />
+    <meta
+      name="description"
+      content="Монтаж и техническое обслуживание пожарной сигнализации (АПС) и СОУЭ в Витебской области. Диагностика, регламентные работы, журнал обслуживания, устранение неисправностей."
+    />
+    <meta name="theme-color" content="#0b1220" />
+    <title>ОДО ЭрфольгКом — обслуживание пожарной сигнализации в Орше</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff3b3b'/%3E%3Cstop offset='1' stop-color='%23ff6b4a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23g)' d='M32 2c7 9 14 18 14 28 0 9-6 16-14 16s-14-7-14-16C18 20 25 11 32 2z'/%3E%3Cpath fill='%23ffffff' opacity='.9' d='M26 41c0 6 4 11 10 11 1 0 2 0 3-.4-8-1-11-7-11-10 0-3 2-6 4-9-4 2-6 6-6 8z'/%3E%3C/svg%3E" />
+
+    <meta property="og:title" content="Обслуживание пожарной сигнализации в Орше" />
+    <meta property="og:description" content="ТО АПС, СОУЭ: диагностика, регламентные работы, журнал обслуживания, устранение неисправностей." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "ОДО ЭрфольгКом",
+        "areaServed": "Витебская область",
+        "telephone": "+375336758878",
+        "email": "INFO@ERFOLGCOM.BY",
+        "description": "Техническое обслуживание АПС и СОУЭ: регламентные работы, диагностика, устранение неисправностей, ведение документации.",
+        "serviceType": [
+          "Монтаж АПС",
+          "Монтаж СОУЭ",
+          "Техническое обслуживание АПС",
+          "Техническое обслуживание СОУЭ",
+          "Проверка пожарной сигнализации"
+        ],
+        "url": "./"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="./" aria-label="На главную">
+          <span class="brand__mark brand__mark--animated" aria-hidden="true">
+            <svg class="logo-svg" width="24" height="24" viewBox="0 0 40 40" fill="none" role="img" aria-hidden="true">
+              <defs>
+                <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#ff3b3b" />
+                  <stop offset="0.6" stop-color="#ff6b4a" />
+                  <stop offset="1" stop-color="#ffd15a" />
+                </linearGradient>
+                <filter id="logoGlow">
+                  <feGaussianBlur stdDeviation="0.8" result="blur" />
+                  <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                </filter>
+              </defs>
+              <rect class="logo-bg" x="2" y="2" width="36" height="36" rx="10" fill="url(#logoGrad)" opacity="0.95" />
+              <path class="logo-flame" d="M20 6c3 4 6 8 6 13 0 5-2.7 9-6 9s-6-4-6-9c0-5 3-9 6-13z" fill="#fff" opacity="0.92" />
+              <path class="logo-spark" d="M17 24c0 2.5 1.4 4.2 3.5 4.2.4 0 .8 0 1.1-.1-2.8-.4-3.8-2.2-3.8-3.4 0-1 .6-2 1.2-2.8-1.2.6-1.8 1.6-1.8 2.4z" fill="#0b1220" />
+              <text class="logo-text" x="20" y="28" text-anchor="middle" font-size="9" font-weight="800" font-family="Inter, system-ui, sans-serif" fill="#0b1220">ЭК</text>
+            </svg>
+          </span>
+          <span class="brand__text">
+            <span class="brand__title">ОДО ЭрфольгКом</span>
+            <span class="brand__subtitle">АПС и СОУЭ · Витебская область</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Навигация">
+          <button class="nav__toggle" type="button" data-nav-toggle aria-expanded="false">
+            <span class="sr-only">Открыть меню</span>
+            <span aria-hidden="true" class="nav__burger"></span>
+          </button>
+          <div class="nav__panel" data-nav-panel>
+            <a class="nav__link" href="#services">Услуги</a>
+            <a class="nav__link" href="#process">Как работаем</a>
+            <a class="nav__link" href="#faq">FAQ</a>
+            <a class="nav__link" href="#contacts">Контакты</a>
+            <a class="btn btn--primary nav__cta" href="#contacts">Связаться</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="badge">
+              <span class="badge__dot" aria-hidden="true"></span>
+              АПС и СОУЭ в Витебской области
+            </p>
+            <h1 class="hero__title">
+              Обслуживание пожарной сигнализации
+              <span class="hero__accent">Стабильная работа АПС и СОУЭ — наша задача</span>
+            </h1>
+            <p class="hero__lead">
+              Монтаж, регламентные работы, диагностика, устранение неисправностей, ведение журнала обслуживания.
+              Подходим для офисов, магазинов, складов, производств, школ и ТСЖ.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#contacts">Связаться</a>
+              <a class="btn btn--ghost" href="#services">Что делаем</a>
+            </div>
+
+            <ul class="hero__facts" aria-label="Ключевые преимущества">
+              <li class="fact">
+                <span class="fact__icon" aria-hidden="true">✓</span>
+                Чек‑лист регламентов и акт выполненных работ
+              </li>
+              <li class="fact">
+                <span class="fact__icon" aria-hidden="true">✓</span>
+                Выезд в Орше и по району по договоренности
+              </li>
+              <li class="fact">
+                <span class="fact__icon" aria-hidden="true">✓</span>
+                Понятный перечень работ до начала обслуживания
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__card" aria-label="О компании">
+            <div class="card">
+              <div class="card__header">
+                <h2 class="card__title">ОДО ЭрфольгКом</h2>
+                <p class="card__subtitle">Монтаж, обслуживание и диагностика АПС и СОУЭ: Орша и Витебская область.</p>
+              </div>
+              <ul class="list" aria-label="Направления работ">
+                <li>Монтаж АПС и СОУЭ</li>
+                <li>Плановое техническое обслуживание</li>
+                <li>Проверка работоспособности и диагностика</li>
+                <li>Устранение неисправностей</li>
+                <li>Ведение документации (журнал/акты)</li>
+              </ul>
+              <div class="note" style="margin-top: 12px">
+                <div class="note__icon" aria-hidden="true">i</div>
+                <p class="note__text" style="margin: 0">
+                  Чтобы связаться с нами, перейдите в раздел “Контакты”.
+                </p>
+              </div>
+              <div style="margin-top: 12px">
+                <a class="btn btn--primary btn--block" href="#contacts">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__bg" aria-hidden="true"></div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Что входит в обслуживание</h2>
+            <p class="section__subtitle">
+              Подбираем перечень работ под вашу систему: АПС, оповещение (СОУЭ), пожарные извещатели, ППКП, питание,
+              линии связи, световые табло, звуковые оповещатели.
+            </p>
+          </div>
+
+          <div class="grid grid--3">
+            <article class="feature">
+              <h3 class="feature__title">Монтаж и подключение</h3>
+              <p class="feature__text">
+                Монтаж оборудования и линий, подключение и настройка, первичная проверка работоспособности и сдача
+                работ с комплектом документов (по согласованию).
+              </p>
+            </article>
+            <article class="feature">
+              <h3 class="feature__title">Регламентные проверки</h3>
+              <p class="feature__text">
+                Осмотр, тестирование шлейфов, проверка срабатывания извещателей (по согласованной методике),
+                контроль индикации и режимов.
+              </p>
+            </article>
+            <article class="feature">
+              <h3 class="feature__title">Диагностика и ремонт</h3>
+              <p class="feature__text">
+                Поиск неисправностей, замена вышедших из строя датчиков и модулей, восстановление линий, настройка
+                контроллеров и оповещения.
+              </p>
+            </article>
+          </div>
+
+          <div class="grid" style="margin-top: 14px">
+            <article class="feature">
+              <h3 class="feature__title">Документация</h3>
+              <p class="feature__text">
+                Записи в журнале ТО, акты, перечень выполненных работ, рекомендации по устранению замечаний и
+                план профилактики.
+              </p>
+            </article>
+          </div>
+
+          <div class="note">
+            <div class="note__icon" aria-hidden="true">i</div>
+            <p class="note__text">
+              Важно: точный регламент зависит от типа оборудования, проекта и требований контролирующих органов.
+              Мы согласуем перечень работ перед заключением договора.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="process">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Как мы работаем</h2>
+            <p class="section__subtitle">Прозрачно: от первичного осмотра до регулярных выездов и отчетности.</p>
+          </div>
+
+          <ol class="steps">
+            <li class="step">
+              <div class="step__num">1</div>
+              <div class="step__body">
+                <h3 class="step__title">Уточняем вводные</h3>
+                <p class="step__text">Тип объекта, площадь, состав системы, частота ТО, текущие проблемы.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__num">2</div>
+              <div class="step__body">
+                <h3 class="step__title">Осмотр и смета</h3>
+                <p class="step__text">Составляем перечень регламентов, оцениваем расходники и возможные ремонты.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__num">3</div>
+              <div class="step__body">
+                <h3 class="step__title">Договор и график</h3>
+                <p class="step__text">Фиксируем перечень работ, сроки, ответственность и план выездов.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step__num">4</div>
+              <div class="step__body">
+                <h3 class="step__title">Регулярное ТО</h3>
+                <p class="step__text">Работы по чек‑листу, отметки в журнале, акт и рекомендации по итогам.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">FAQ</h2>
+            <p class="section__subtitle">Короткие ответы на частые вопросы по обслуживанию АПС и СОУЭ.</p>
+          </div>
+
+          <div class="faq" data-accordion>
+            <details class="faq__item">
+              <summary class="faq__q">Как часто нужно делать обслуживание?</summary>
+              <div class="faq__a">
+                <p>
+                  Периодичность зависит от типа системы и требований к объекту. Обычно устанавливают регулярные выезды по
+                  договору и фиксируют результаты в журнале.
+                </p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Вы ведёте журнал обслуживания?</summary>
+              <div class="faq__a">
+                <p>Да, по итогам работ делаем записи и предоставляем акт выполненных работ (формат согласуем).</p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Можно ли обслуживать “как есть”, если проект утерян?</summary>
+              <div class="faq__a">
+                <p>
+                  Да. Начнем с осмотра и составим фактическую схему/перечень устройств, отметим проблемные зоны и
+                  предложим варианты восстановления документации.
+                </p>
+              </div>
+            </details>
+            <details class="faq__item">
+              <summary class="faq__q">Вы устраняете ложные срабатывания?</summary>
+              <div class="faq__a">
+                <p>
+                  Да. Причины бывают разные: загрязнение датчиков, неправильное размещение, обрывы/наводки линии, питание
+                  или настройки. После диагностики дадим рекомендации и смету.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="section__title">Контакты</h2>
+            <p class="section__subtitle">
+              Свяжитесь с нами удобным способом.
+            </p>
+          </div>
+
+          <div class="contacts">
+            <div class="contacts__card">
+              <div class="contacts__row">
+                <div class="contacts__k">Телефон</div>
+                <div class="contacts__v">
+                  <a href="tel:+375336758878">+375 (33) 675‑88‑78</a>
+                </div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__k">E‑mail</div>
+                <div class="contacts__v">
+                  <a href="mailto:INFO@ERFOLGCOM.BY">INFO@ERFOLGCOM.BY</a>
+                </div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__k">Город</div>
+                <div class="contacts__v">Витебская область (база: Орша)</div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__k">График</div>
+                <div class="contacts__v">Пн–Пт 8:00–17:00</div>
+              </div>
+              <div class="contacts__actions">
+                <a class="btn btn--ghost" href="#services">Услуги</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__copy">© <span data-year></span> ОДО ЭрфольгКом, Витебская область.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
